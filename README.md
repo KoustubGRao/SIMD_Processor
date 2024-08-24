@@ -12,6 +12,6 @@ process data in registers or implement some control commands, e.g. jump. In the 
 instruction is “store” or “load”, data would be read from/ written to data BRAM, based on instruction
 and address. Finally, in the stage WB, data will be written back to register. The pins of clock, reset,
 address, data and BRAM enable will be exposed on the interface of processor. The architecture of
-processor is shown in the figure above.
+processor is shown in the figure above. Architecture is inspired by research under prof Tsui and TA Zhu , HKUST.
 
 
